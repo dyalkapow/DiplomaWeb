@@ -1,0 +1,29 @@
+.header {
+    border-bottom: solid 1px #ccc;
+    color: gold;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px #444;
+    
+    .content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: $header-color; 
+    }
+
+}
+
+.logo {
+    max-width: 70px;
+    img {
+        max-width: 100%;
+    }
+}

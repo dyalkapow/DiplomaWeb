@@ -1,0 +1,61 @@
+.aboutme-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+    .my-image {
+        border: 15px solid whitesmoke;
+        box-shadow: $shadow;
+        margin-top: 20px;
+
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .my-info {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        max-width: 45%;
+        
+        h3 {
+            font-size: 30px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        .divide-line {
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+            letter-spacing: .05em;
+            line-height: 1.5;
+        }
+
+        .certificates {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .certificate {
+                margin: 0 5px;
+                box-shadow: $shadow;
+                    img {
+                        max-width: 100%
+                    }
+            }
+            
+        }
+    }
+}

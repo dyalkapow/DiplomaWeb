@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- JQuery script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <!-- Fancy apps script-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer>
+    </script>
+    <!-- Fonts Awesome icons -->
+    <script src="https://kit.fontawesome.com/9b46de4310.js" crossorigin="anonymous" defer></script>
+    <!-- Fancy box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <!-- Slick Carousel styles -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Custom script -->
+    <script src="/js/app.js" defer></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="content">
+                <div class="hamburger-wrapper">
+                    <div class="hamburger">
+                        <span></span>
+                    </div>
+                    <div class="hamburger-nav">
+                        <div class="hamburger-social-network">
+                            <ul>
+                                <li class="social-network-icons">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social-network-icons">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                                </li>
+                                <li class="social-network-icons">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <a href="https://www.pinterest.com"><i class="fab fa-pinterest-square"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="slide-nav">
+                            <ul>
+                                <li class="nav-button">
+                                    <a href="index.html">Home</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </li>
+                                <li class="nav-button">
+                                    <a href="aboutme.html">About me</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </li>
+                                <li class="nav-button">
+                                    <a href="contacts.html">Contacts</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </li>
+                                <li class="nav-button">
+                                    <a href="feedback.html">Feedback</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="/index.html"><img src="/assets/logo.png" alt=""></a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-button">
+                            <a href="index.html">Home</a>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="nav-button">
+                            <a href="aboutme.html">About me</a>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="nav-button">
+                            <a href="contacts.html">Contacts</a>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="nav-button">
+                            <a href="feedback.html">Feedback</a>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-network">
+                    <ul>
+                        <li class="social-network-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-network-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="social-network-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="https://www.pinterest.com"><i class="fab fa-pinterest-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="content">
+                <!-- <div class="sidebar">
+                <nav class="nav">
+                    <span><a href="/index.html">Home</a></span>
+                    <span><a href="">Gallery</a></span>
+                    <span><a href="">About us</a></span>
+                    <span><a href="">Contacts</a></span>
+                </nav>
+            </div> -->
+                <div class="container">
+                    <div class="slick-carousel">
+                        <i class="fas fa-chevron-left prev"></i>
+                        <i class="fas fa-chevron-right next"></i>
+                        <div class="slick-wrapper">
+                            <div class="slick-post">
+                                <img src="/assets/slick-image-1.jpg" alt="">
+                            </div>
+                            <div class="slick-post">
+                                <img src="/assets/slick-image-2.jpg" alt="">
+                            </div>
+                            <div class="slick-post">
+                                <img src="/assets/slick-image-3.jpg" alt="">
+                            </div>
+                            <div class="slick-post">
+                                <img src="/assets/slick-image-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <h1>About me</h1>
+                    <div class="aboutme-section">
+                        <div class="my-image">
+                            <img src="/assets/about-1-437x435.jpg" alt="">
+                        </div>
+                        <div class="my-info">
+                            <h3>I’ve been working as a professional wedding photographer all my adult life.</h3>
+                            <div class="divide-line"></div>
+                            <p>My name is Susan Parker, and I have been a professional wedding photographer since 2005.
+                                On this website you can take a look at my latest photos or order a photo session for
+                                yourself or your family.</p>
+
+                        </div>
+                    </div>
+                    <div class="portfolio-title">
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div class="portfolio-section">
+                        <div class="portfolio-card">
+                            <!-- <img src="/assets/portfolio-first.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-first.jpg"><img src="/assets/portfolio-first.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-card">
+                            <!-- <img src="/assets/portfolio-second.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-second.jpg"><img src="/assets/portfolio-second.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-card">
+                            <!-- <img rc="/assets/portfolio-third.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-third.jpg"><img src="/assets/portfolio-third.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-card">
+                            <!-- <img rc="/assets/portfolio-fourth.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-fourth.jpg "><img src="/assets/portfolio-fourth.jpg " alt="" /></a>
+                        </div>
+                        <div class="portfolio-card">
+                            <!-- <img rc="/assets/portfolio-fifth.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-fifth.jpg"><img src="/assets/portfolio-fifth.jpg" alt="" /></a>
+                        </div>
+                        <div class="portfolio-card">
+                            <!-- <img rc="/assets/portfolio-six.jpg" alt=""> -->
+                            <a data-fancybox-trigger="images" href="/assets/portfolio-six.jpg"><img src="/assets/portfolio-six.jpg" alt="" /></a>
+                        </div>
+                    </div>
+
+                    <!-- Award section -->
+
+                    <h1>Awards</h1>
+                    <div class="award-section">
+                        <div class="award-bg"></div>
+                        <div class="awards">
+                            <div class="award-box">
+                                <img src="/assets/award-1-134x98-inverse.png" alt="">
+                                <h2>Best photo of the year</h2>
+                                <div class="award-text-divide-line"></div>
+                                <span>2013</span>
+                            </div>
+                            <div class="award-box">
+                                <img src="/assets/award-2-115x117-inverse.png" alt="">
+                                <h2>Best couple photo</h2>
+                                <div class="award-text-divide-line"></div>
+                                <span>2014</span>
+                            </div>
+                            <div class="award-box">
+                                <img src="/assets/award-3-116x103-inverse.png" alt="">
+                                <h2>Best love story photo</h2>
+                                <div class="award-text-divide-line"></div>
+                                <span>2015</span>
+                            </div>
+                            <div class="award-box">
+                                <img src="/assets/award-4-131x96-inverse.png" alt="">
+                                <h2>Best photo shoot</h2>
+                                <div class="award-text-divide-line"></div>
+                                <span>2016</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog sectioon -->
+                    <h1>Blog</h1>
+                    <div class="blog-section">
+                        <div class="blog-card">
+                            <div class="blog-card-date-comment">
+                                <ul>
+                                    <li>July 20,2019 </li>
+                                    <li><a href="#"> 3 comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-card-main">
+                                <h3 class="blog-card-title">Becoming a King and Queen for a Day</h3>
+                                <p>For one day, the two of you are the focus of attention. The concerns of the world
+                                    slip...</p>
+                            </div>
+                            <div class="blog-card-user">
+                                <div class="blog-card-user-profile">
+                                    <img src="/assets/user-6-46x46.jpg" alt="">
+                                </div>
+                                <div class="blog-card-user-name">
+                                    <h4>Susan</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blog-card">
+                            <div class="blog-card-date-comment">
+                                <ul>
+                                    <li>July 20,2019 </li>
+                                    <li><a href="#"> 3 comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-card-main">
+                                <h3 class="blog-card-title">How to Make Great Wedding Photos</h3>
+                                <p>Today I’m going to answer the question that my clients ask almost after every photo
+                                    shoot. It’s a question...</p>
+                            </div>
+                            <div class="blog-card-user">
+                                <div class="blog-card-user-profile">
+                                    <img src="/assets/user-6-46x46.jpg" alt="">
+                                </div>
+                                <div class="blog-card-user-name">
+                                    <h4>Susan</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-date-comment">
+                                <ul>
+                                    <li>July 20,2019 </li>
+                                    <li><a href="#"> 3 comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-card-main">
+                                <h3 class="blog-card-title">5 Most Exotic Weddings</h3>
+                                <p>Do you want to know where your wedding will be the most unforgettable? Read this post
+                                    and you’ll find...</p>
+                            </div>
+                            <div class="blog-card-user">
+                                <div class="blog-card-user-profile">
+                                    <img src="/assets/user-6-46x46.jpg" alt="">
+                                </div>
+                                <div class="blog-card-user-name">
+                                    <h4>Susan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="form">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <form>
+                                <label>
+                                    <p>Enter date</p>
+                                    <input type="date" name="event-date" placeholder="Event Date">
+                                </label>
+                                <label>
+                                    <input type="text" name="your-name" placeholder="Your Name">
+                                </label>
+                                <label>
+                                    <input type="email" name="email" placeholder="E-mail">
+                                </label>
+                                <textarea name="comment" rows="2" placeholder="Your Message"></textarea>
+                                <button>make an appointment</button>
+                            </form>
+                        </div>
+                        <div class="form-text">
+                            <h1>Book Your Photo Shoot</h1>
+                            <p>I will appreciate as many details about your particular wedding venue, dates, theme and
+                                other aspects, as you’d be willing to share. I will be giving you my feedback
+                                immediately!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="logo">
+                <a href="/index.html"><img src="/assets/logo.png" alt=""></a>
+            </div>
+            <p>All rights reserved &copy; </p>
+        </footer>
+    </div>
+</body>
+
+</html>

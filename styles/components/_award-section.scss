@@ -1,0 +1,37 @@
+.award-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    background: url("/assets/award-bg.jpg") center center fixed;
+    margin: 50px 0;
+}
+
+.award-bg {
+    background: url("/assets/award-bg.jpg") center center;
+    z-index: 0;
+}
+
+.awards {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 84%;
+    z-index: 1;
+}
+
+.award-box {
+    text-align: center;
+    color: #fff;
+
+}
+
+.award-text-divide-line{
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto;
+}

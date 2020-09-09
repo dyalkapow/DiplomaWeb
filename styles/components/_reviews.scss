@@ -1,0 +1,194 @@
+.feedback-link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .feedback-link {
+        text-align: center;
+        width: 60%;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        span {
+            color: #666;
+        }
+
+        a {
+            text-decoration: none;
+            color: $primary-text-color;
+        }
+    }
+}
+
+.feedback-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+
+    .feedback-card {
+        width: 48%;
+        margin: 1%;
+        position: relative;
+        padding: 50px;
+        transition: .5s ease;
+
+        span {
+            width: 50px;
+            height: 50px;
+            border: solid #ccc 1px;
+            transition: .3 ease;
+        }
+    
+        
+        span:nth-child(1) {
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            border-width: 1px 0 0 1px;
+            z-index: 1;
+        }
+        
+        span:nth-child(2) {
+            position: absolute;
+            top: -1px;
+            right: -1px;
+            border-width: 1px 1px 0 0;
+            z-index: 1;
+        }
+        
+        span:nth-child(3) {
+            position: absolute;
+            bottom: -1px;
+            right: -1px;
+            border-width:0 1px 1px 0;
+            z-index: 1;
+        }
+        
+        span:nth-child(4) {
+            position: absolute;
+            bottom: -1px;
+            left: -1px;
+            border-width: 0 0 1px 1px;
+            z-index: 1;
+        }
+        
+        h4 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            transition: .5s ease;
+        }
+
+        .feedback-text {
+            display: flex;
+            margin: 40px 0;
+            i {
+                font-size: 30px;
+                margin-right: 20px;
+                color: $primary-text-color;
+                transition: .5s ease;
+            }
+
+            p {
+                color: #999;
+                transition: .5s ease;
+            }
+        }
+    }
+
+    .feedback-user {
+        display: flex;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+        }
+        
+        ul {
+            list-style: none;
+            display: flex;
+            margin-left: 20px;
+            
+            li {
+                transition: .5s ease;
+            }
+                
+            li + li {
+                margin-left: 20px;
+                color: #888;
+            }
+
+            li + li::before {
+                content: "|";
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.feedback-card:hover {
+    transition: .5s ease;
+    background-color: #00bd9d;
+
+    .feedback-text {
+        i {
+            transition: .5s ease;
+            color: #fff;
+        }
+        
+        p {
+            transition: .5s ease;
+            color: #fff;
+        }
+    }
+
+    span {
+        border: 0;
+        transition: 2s ease;
+    }
+
+    h4 {
+        color: #fff;
+        transition: .5s ease;
+    }
+    .feedback-user {
+        li {
+            color: #fff;
+            transition: .5s ease;
+        }
+    }
+}
+
+.reviews {
+    .form-section {
+        margin: 50px 0 20px;
+        padding: 50px;
+        border-top: 1px solid #ccc;
+        box-shadow: $shadow;
+        background: url("/assets/bg-image-6-1920x1225.jpg");
+
+        button {
+            color: #ccc;
+        }
+    }
+
+
+    .form-text {
+        color: #fff;
+    }
+
+    .form:hover {
+        background-color: transparent;
+        border-color: #fff;
+
+        button:hover {
+            color: #000;
+        }
+    }
+}
+
+

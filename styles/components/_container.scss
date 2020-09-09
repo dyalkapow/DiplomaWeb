@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    position: relative;
+
+    .content {
+        margin: 0;
+        min-width: 100%;
+
+        .breadcrumbs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 350px;
+            background: url(/assets/breadcrumbs-image.jpg) no-repeat top;
+            background-size: cover;
+
+            .breadcrumbs-menu {
+                text-align: center;
+                h1 {
+                    font-size: 50px;
+                    color: #fff;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: $primary-text-color;
+                }
+
+                span + span {
+                    margin-left: 30px;
+                    color: #fff;
+                }
+
+                span + span::before {
+                    content: "";
+                    display: inline-block;
+                    width: 20px;
+                    height: 10px;
+                    background: url("/assets/arrow-right.svg") no-repeat center;
+                    background-size: 20px;
+                    color: #fff;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
